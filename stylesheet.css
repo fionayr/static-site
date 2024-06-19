@@ -1,76 +1,58 @@
-p{color:hsl(0, 0%, 4%);}
-h1{background-color:rgb(229, 241, 252);}
-p{background-color:rgb(229, 241, 252)}
-.exampleclass{
-    color:rgb(18, 158, 149);
-    text-align: center
-}
+
+h1{background-color:rgb(229, 241, 252);
+margin: 5 0;
+text-align: }
 
 h2{font-size: 2rem}
 p{font-size: 0.9rem}
 p{font-family: Verdana, Arial, Helvetica;}
 
-body{font-size:}
 
-img{
-    border:12px solid rgba(120, 182, 158, 0.771); padding-bottom: px; padding-left: 0px; margin: 1px 0px 1px 11px; 
-    width: 200px}
+img{border:12px solid rgba(120, 182, 158, 0.771); padding-bottom: px; padding-left: 0px; margin: 1px 0px 1px 11px; 
+    width: 350px;
+    margin: 3;
+    text-align: left;}
+
+.exampleclass{
+  color:rgb(18, 158, 149);
+  text-align: center
+  }
 
 .resize-photo-small{border:5px solid rgb(209, 205, 205); padding-bottom: 0px; padding-left: 0px; margin: 0px px px px; width: 100px;}
 .resize-photo-m {border:5px solid rgb(111, 132, 227); 
-padding-bottom: 0px; 
+padding-bottom: px; 
 padding-left: 0px; 
 margin: 0px px 18px 12px; 
 width: 200px;
 text-align: right;}
 
-<style>
-.mycontainer {
-  width:100%;
-  overflow:auto;
-}
-
-
-
-<style>
-    .container {
-        display: grid;
-        grid-template-columns: auto 1fr;
-        gap: 10px; /* Adjust this value for spacing */
-        align-items: center; /* Center align vertically */
-    }
-    .container p {
-        text-align: center; /* Center align the text horizontally */
-    }
-</style>
-
-div.mycontainer {
-    width:100%;
-    overflow:auto;
-    display: inline-block;
-    
-  }
-  div.mycontainer div {
-    width:%;  
-    float:left;
-  }
-
-  .container h1 {
-    color: rgb(73, 169, 184);
-    margin: 5;
-    text-align: center
-}
-.container img {
-    display: block;
-  margin-left: auto;
-  margin-right: auto;
-    max-width: 100%; /* Ensures the image is responsive */
-    height: auto;
-    align-items: center
-}
-
 .contain {
-    margin: 5;
-    text-align: center
+    padding: 30;
+    text-align: center;
+    background-color: rgb(121, 180, 160);
+}
 
+
+#quote {
+  float: right;
+  width: 60%;
+  background-color: rgb(196, 234, 226);
+  /*
+  background-color: aliceblue;
+  color: rgb(17, 17, 17);
+  position: absolute;
+  left: 35%;
+  top: 30%;
+  text-align: right
+  */
+}
+
+#me {
+  float: left;
+  width: 30%;
+  background-color: rgb(190, 220, 247);
+/*
+  position: relative;
+  right: 30%;
+  */
 }
